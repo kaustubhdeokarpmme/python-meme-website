@@ -16,4 +16,4 @@ def index():
     meme_pic, subreddit = get_meme()
     return render_template("index.html",meme_pic=meme_pic, subreddit=subreddit)
 
-app.run(host="0.0.0.0",port=3000)
+app.run()

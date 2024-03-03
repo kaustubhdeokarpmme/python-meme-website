@@ -4,3 +4,4 @@ keyring==23.5.0
 requests==2.25.1
 Routes==2.5.1
 Werkzeug==2.1.1
+gunicorn==21.2.0
